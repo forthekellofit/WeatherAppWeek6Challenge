@@ -1,0 +1,127 @@
+body {
+  background: #f6bed6;
+  color: #336d88;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 30px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  padding: 15px 0;
+}
+
+.location {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+  background: #f6def6;
+  border-radius: 25px;
+}
+
+i.fas.fas.fa-sun {
+  font-size: 150px;
+  color: #ffa931;
+}
+
+i.far.fa-sun,
+i.fas.fa-cloud-sun,
+i.fas.fa-cloud-rain {
+  font-size: 60px;
+}
+
+i.far.fa-sun {
+  color: burlywood;
+}
+
+i.fas.fa-map-marker-alt {
+  font-size: 36px;
+}
+
+.current.temp {
+  font-size: 48px;
+}
+
+.card-subtitle.mb-2.text-muted {
+  font-size: 1.5rem;
+}
+
+.searchbtn {
+  background: white;
+  border: white;
+  color: #1d1b38;
+  border-radius: 31px;
+  padding: 5px 15px;
+  transition: all 150ms ease-in-out;
+  margin: 15px;
+}
+
+.searchbtn:hover {
+  background: #e79cc2;
+  color: white;
+  cursor: pointer;
+}
+
+.currentlocationbtn {
+  background: #7fdbda;
+  border: #7fdbda;
+  color: #1d1b38;
+  border-radius: 31px;
+  padding: 5px 15px;
+  transition: all 150ms ease-in-out;
+  margin: 15px;
+}
+
+.currentlocationbtn:hover {
+  background: #092532;
+  color: white;
+  cursor: pointer;
+}
+
+.humidity {
+  font-size: 48px;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 36px;
+}
+
+.col-4 {
+  transition: all 150ms ease-in-out;
+}
+.col-4:hover {
+  background: #f6def6;
+}
+
+hr {
+  border-color: #05dfd7;
+  height: 4px;
+  width: 90%;
+}
